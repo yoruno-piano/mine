@@ -1,0 +1,115 @@
+.heroimg {
+    background-image: url();
+    background-size: cover;
+}
+.logo img {
+    height: 55px;
+}
+.space {
+    width: 100%;
+    height: 100vh;
+}
+.star {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 35%);
+}
+.star_delayShiny {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 35%);
+    animation: star 5s infinite alternate;
+}
+
+.star_normalShiny {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 35%);
+    animation: star 3s infinite alternate;
+}
+H1,H2,H5 {
+    font-family: Shippori Antique;
+}
+a,p {
+    font-family: Kosugi Maru;
+    font-size: medium;
+}
+H4 {
+    font-family: Kosugi Maru;
+    font-size: x-large;
+    padding: 5px 0 5px;
+}
+.text-space {
+    background-color: #223557;
+}
+.btn-space {
+    background-color: #223557;
+    color: #ffffff;
+}
+.btn-space:hover {
+    background-color: #4f658b;
+    color: #ffffff;
+}
+.btn-start {
+    background-color: #223557;
+    color: bisque;
+    border: bisque;
+}
+.btn-start:hover {
+    background-color: bisque;
+    color:  #223557;
+    border: 2px, bisque;
+}
+.card {
+    background-color: bisque;
+    color: #5e4040;
+}
+.btn-paper {
+    background-color: bisque;
+    color: #5e4040;
+}
+.btn btn-paper {
+    width: 100%;
+    height: 100%;
+}
+.btn-paper:hover {
+    background-color: rgb(199, 167, 127);
+    color: #ffffff;
+}
+.card-img-top {
+    width: auto;
+    height: 195px;
+    object-fit: cover;
+}
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.triangle_left {
+    height: 0px;
+    width: 0px; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #223557;
+}
+.triangle_right {
+    height: 0px;
+    width: 0px; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid #223557;
+}
+
+@keyframes star {
+    from {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
